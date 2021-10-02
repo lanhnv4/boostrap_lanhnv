@@ -7,6 +7,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
@@ -99,9 +103,9 @@
                 <h2>Corporate Leadership</h2>
                 <div id="accordion">
                     <div class="card">
-                        <div class="card-header" role="tab" id="peterhead">
+                        <div class="card-header" role="button" id="peterhead">
                         <h3 class="mb-0">
-                            <a data-toggle="collapse" data-target="#peter">
+                            <a class="collapsed" data-toggle="collapse" data-target="#peter">
                             Peter Pan <small>Chief Epicurious Officer</small>
                             </a>
                         </h3>
@@ -114,11 +118,11 @@
                     </div>  
                     
                     <div class="card">
-                        <div class="card-header" role="tab" id="dannyhead">
+                        <div class="card-header" role="button" id="dannyhead">
                         <h3 class="mb-0">
-                            <a data-toggle="collapse" data-target="#danny">
+                            <a class="collapsed" data-toggle="collapse" data-target="#danny">
                                 Dhanasekaran Witherspoon <small>Chief Food Officer</small>
-                            </a>
+                            </button>
                         </h3>
                         </div>
                         <div class="collapse" id="danny" data-parent="#accordion">
@@ -129,9 +133,9 @@
                     </div>
                
                     <div class="card">
-                        <div class="card-header" role="tab" id="agumbehead">
+                        <div class="card-header" role="button" id="agumbehead">
                         <h3 class="mb-0">
-                            <a data-toggle="collapse" data-target="#agumbe">
+                            <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
                                 Agumbe Tang <small>Chief Taste Officer</small>
                             </a>
                         </h3>
@@ -144,9 +148,9 @@
                     </div>
 
                     <div class="card">
-                        <div class="card-header" role="tab" id="albertahead">
+                        <div class="card-header" role="button" id="albertahead">
                         <h3 class="mb-0">
-                            <a data-toggle="collapse" data-target="#alberta">
+                            <a class="collapsed" data-toggle="collapse" data-target="#alberta">
                                 Alberto Somayya <small>Executive Chef</small>
                             </a>
                         </h3>
